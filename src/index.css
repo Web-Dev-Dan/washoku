@@ -1,0 +1,39 @@
+/* Variables */
+:root {
+    --font-primary: 'Quicksand', sans-serif;
+}
+
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: var(--font-primary);
+    font-size: 62.5%;
+}
+
+
+/* Global Styling */
+.container {
+    width: 100%;
+}
+
+.inner {
+    /* background-color: orange; */
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* Buttons */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
